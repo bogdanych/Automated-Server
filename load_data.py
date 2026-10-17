@@ -3,7 +3,7 @@ import os
 import re
 import shutil
 from datetime import datetime
-import psycopg2  # или sqlite3, если используете SQLite
+import psycopg2 
 import config
 
 FILENAME_RE = re.compile(r"^(\d+)_(\d+)\.csv$")
