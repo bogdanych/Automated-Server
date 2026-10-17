@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи (генерируются cron'ом)
+*.log
+
+# Секреты
+.env
+
+# Рабочие данные
+data/*.csv
+data/processed/
+
+# Но примеры оставляем
+!data/example_*.csv
