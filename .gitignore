@@ -11,8 +11,5 @@ __pycache__/
 .env
 
 # Рабочие данные
-data/*.csv
 data/processed/
 
-# Но примеры оставляем
-!data/example_*.csv
